@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="suhas">
+        <meta name="description" content="student registratio form">
+        <link rel="icon" href="st.png" type="image/png">
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <h1>
+            student registration form
+        </h1>
+        <form action = "submit.pnp" method = "post">
+            <fieldset>
+                <legend>personal information</legend>
+                <label>Name:</label>
+                <input type="text" placeholder="enter the name" required >       
+                <br><br>
+                <label>Date of birth:</label>
+                <input type="date" required>
+                <br><br>
+                <label>Gender</label>
+                <input type ="radio" name="gender" required>male
+                <input type ="radio" name="gender" required>female
+                <br><br>
+                <label>hobbies</label>
+                <input type="checkbox">cricket
+                <input type="checkbox">music
+                <input type="checkbox">reading
+                <input type="checkbox">other
+                <br><br>
+                <label>which stream</label>
+                <select required>
+                    <option value="">select</option>
+                    <option value="science">science</option>
+                    <option value="commerce">commerce</option>
+                    <option value="arts">arts</option>
+                </select>
+                <br><br>
+                <label>email:</label>
+                <input type="email" placeholder="enter the email" required>
+                <br><br>
+                <label>phone number:</label>
+                <input type="tel" placeholder="enter the phone number" required>
+                <br><br>
+                <label>password:</label>
+                <input type="password" placeholder="enter the password" required>
+                <br><br>
+                <input type="submit" value="register">
+                
+                <input type="reset" value="reset">
+                <a href="new2.html">click here for nxt page</a>
+            </fieldset>
+        </form>
+    <table>
+        <caption>student information</caption>
+        <tr>
+            <th>name</th>
+            <th>email</th>
+            <th>phone number</th>
+        </tr>
+        <tr>
+            <td>suhas</td>
+            <td>suhas@example.com</td>
+            <td>123-456-7890</td>
+        </tr>
+    </table>
+
+                
+    </body>
+</html>
